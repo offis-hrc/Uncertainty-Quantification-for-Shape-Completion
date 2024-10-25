@@ -44,13 +44,13 @@ Please reference `render` and `sample` to create your own dataset. Also, we use 
 In order to train the model, please use script:
 
 ```shell
-python train_confidence.py --exp_name PCN_16384 --lr 0.0001 --epochs 400 --batch_size 32 --coarse_loss cd --num_workers 8
+python train_confidence_cd.py --exp_name PCN_16384 --lr 0.0001 --epochs 400 --batch_size 32 --coarse_loss cd --num_workers 8
 ```
 
 If you want to use emd to calculate the distances between coarse point clouds, please use script:
 
 ```shell
-python train_confidence.py --exp_name PCN_16384 --lr 0.0001 --epochs 400 --batch_size 32 --coarse_loss emd --num_workers 8
+python train_confidence_cd.py --exp_name PCN_16384 --lr 0.0001 --epochs 400 --batch_size 32 --coarse_loss emd --num_workers 8
 ```
 
 ## Testing
@@ -58,7 +58,7 @@ python train_confidence.py --exp_name PCN_16384 --lr 0.0001 --epochs 400 --batch
 In order to test the model, please use follow script:
 
 ```shell
-python test.py --exp_name PCN_16384 --ckpt_path <path of pretrained model> --batch_size 32 --num_workers 8
+python test_confidence.py --exp_name PCN_16384 --ckpt_path <path of pretrained model> --batch_size 32 --num_workers 8
 ```
 
 Because of the computation cost for calculating emd for 16384 points, I split out the emd's evaluation. The parameter `--emd` is used for testing emd. The parameter `--novel` is for novel testing data contains unseen categories while training. The parameter `--save` is used for saving the prediction into `.ply` file and visualize the result into `.png` image.
