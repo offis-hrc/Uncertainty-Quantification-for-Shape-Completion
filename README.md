@@ -73,7 +73,7 @@ I trained the model on Nvidia GPU 1080Ti with L1 Chamfer Distance for 400 epochs
 
 ### Qualitative Result
 
-![seen](images/uncertainty_all.png)
+![seen](images/results.png)
 
 
 
