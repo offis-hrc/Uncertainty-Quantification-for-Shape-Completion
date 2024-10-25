@@ -1,0 +1,6 @@
+# ninja log v5
+1	5502	1727194399267815738	/home/pmegarajan/Projects/nbv/PCN-PyTorch/extensions/earth_movers_distance/build/temp.linux-x86_64-cpython-37/emd_kernel_confidence.o	5723e2fc8e56e813
+0	9042	1727194402805737826	/home/pmegarajan/Projects/nbv/PCN-PyTorch/extensions/earth_movers_distance/build/temp.linux-x86_64-cpython-37/emd_confidence.o	136a2afa23b3e751
+0	5550	1727194415914449125	/home/pmegarajan/Projects/nbv/PCN-PyTorch/extensions/earth_movers_distance/build/temp.linux-x86_64-cpython-37/emd_kernel_original.o	7ee102d6b5aa5d5
+0	9010	1727194419371372988	/home/pmegarajan/Projects/nbv/PCN-PyTorch/extensions/earth_movers_distance/build/temp.linux-x86_64-cpython-37/emd.o	e8a63bba4ccc11a4
+1	5465	1728510862230698664	/home/pmegarajan/Projects/nbv/PCN-PyTorch/extensions/earth_movers_distance/build/temp.linux-x86_64-cpython-37/emd_kernel_confidence.o	5723e2fc8e56e813

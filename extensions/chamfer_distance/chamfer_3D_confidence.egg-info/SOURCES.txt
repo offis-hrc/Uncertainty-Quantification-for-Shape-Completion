@@ -1,0 +1,8 @@
+chamfer3D_confidence.cu
+chamfer_cuda_confidence.cpp
+setup.py
+setup_confidence.py
+chamfer_3D_confidence.egg-info/PKG-INFO
+chamfer_3D_confidence.egg-info/SOURCES.txt
+chamfer_3D_confidence.egg-info/dependency_links.txt
+chamfer_3D_confidence.egg-info/top_level.txt
