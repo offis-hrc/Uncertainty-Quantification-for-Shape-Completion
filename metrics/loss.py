@@ -4,7 +4,7 @@ from extensions.chamfer_distance.chamfer_distance import ChamferDistance
 from extensions.chamfer_distance.chamfer_distance_confidence import ChamferDistanceConfidence
 from extensions.earth_movers_distance.emd import EarthMoverDistance
 from extensions.earth_movers_distance.emd_confidence import EarthMoverDistanceConfidence
-
+ 
 
 CD = ChamferDistance()
 CD_Confidence = ChamferDistanceConfidence()
